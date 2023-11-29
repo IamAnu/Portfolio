@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anupriya Pandey</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/4e42db1cf9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header Sectiion or Main -->
+    <header id="home">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="/"  class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Project</a></li>
+                    <li><a href="HOME">Contact</a></li>
+                    <i class="fas fa-times" onclick="closeMenu()"></i>
+                </ul>
+                <!-- <i class="fa-solid fa-bars"></i> -->
+                <i class="fas fa-bars" onclick="openMenu()"></i>
+            </nav>
+           <div id="intro">
+                <div class="header-text">
+                    <p>Front End Developer</p>
+                    I'm <span>Anupriya Pandey</span> Happy to see
+                    <br>  your interst in my Profile.
+                </div>
+                <div class="my-profile"> </div>
+           </div>
+        </div>
+        
+    </header>
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/pic.png">
+                    <!-- <img src="./images/user.png"> -->
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nemo consequuntur dolore quod, placeat quae labore cum in non ullam rerum eveniet ipsa sapiente at! Voluptatibus harum quo officia enim.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experince')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front End Developer</span> <br> Designing Web/App interfaces</li>
+                            <li><span>Front End Developer</span> <br> Designing Web/App interfaces</li>
+                            <li><span>Front End Developer</span> <br> Designing Web/App interfaces</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experince">
+                        <ul>
+                            <li><span>SDE 1 jul-2022 to jul-23</span> <br> M2P Fintech 2023-2023</li>
+                            <li><span>Front End Developer</span> <br> UST Blue Conch</li>
+                            <li><span>Front End Developer</span> <br> CN</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BBD  NITM</span> <br>B.tech IT (2016-20)</li>
+                            <li><span> SR Inter College </span> <br> Intermediate  (2015-16) </li>
+                            <li><span>SR School</span> <br>High School (2014-15)</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title" style="color: #fff;">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam reiciendis ex, enim unde deleniti et veritatis harum doloremque facilis dicta repellendus fugiat? Amet labore neque adipisci blanditiis illo culpa excepturi.</p>
+                    <a href="#">Learn more.. </a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-adn"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam reiciendis ex, enim unde deleniti et veritatis harum doloremque facilis dicta repellendus fugiat? Amet labore neque adipisci blanditiis illo culpa excepturi.</p>
+                    <a href="#">Learn more.. </a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam reiciendis ex, enim unde deleniti et veritatis harum doloremque facilis dicta repellendus fugiat? Amet labore neque adipisci blanditiis illo culpa excepturi.</p>
+                    <a href="#">Learn more.. </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--  ************************** Portfolio ************************* -->
+    <!-- <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title" style="color: #fff;">My Work</h1>
+            <div class="work-list">
+               <div>
+                    <div class="work">
+                        <img src="/images/work-1.png"> 
+                    </div> 
+                </div>
+            </div>
+            <div class="work-list">
+                <div>
+                    <div class="work">
+                        <img src="/images/work-2.png">  
+                    </div>
+                </div>
+            </div>
+            <div class="work-list">
+                <div>
+                    <div class="work">
+                        <img src="/images/work-3.png">
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia recusandae doloribus id praesentium adipisci blanditiis amet fugiat vitae, illum cum asperiores error! Quidem neque excepturi doloribus reiciendis nihil amet aspernatur.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work-2.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia recusandae doloribus id praesentium adipisci blanditiis amet fugiat vitae, illum cum asperiores error! Quidem neque excepturi doloribus reiciendis nihil amet aspernatur.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work-3.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia recusandae doloribus id praesentium adipisci blanditiis amet fugiat vitae, illum cum asperiores error! Quidem neque excepturi doloribus reiciendis nihil amet aspernatur.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!--  ************************** Contact ************************* -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1> 
+                    <p> <i class="fa-solid fa-paper-plane"></i> Contact@email.com </p>
+                    <p><i class="fa-solid fa-phone"></i> 9800011834 </p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""> <i class="fa-regular fa-envelope"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-solid fa-code"></i></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="./images/Anupriya_Pandey .pdf" download class="btn btn2"> Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Enter name" required>
+                        <input type="email" name="Email" placeholder="Enter Email.." required>
+                        <textarea name="MEssage" id="" cols="30" rows="6" placeholder="Write Message For me"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div> 
+        <div class="copyright">
+            <p> <i class="fa-regular fa-copyright"></i> @Anupriya All reserve and rights  </p>
+        </div>
+    </div>
+
+
+    <script src="./script.js" ></script>
+</body>
+</html>
