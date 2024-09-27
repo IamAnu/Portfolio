@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anupriya Pandey</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4e42db1cf9.js" crossorigin="anonymous"></script>
-</head>
+</head> 
+
 <body>
     <!-- Header Sectiion or Main -->
     <header id="home">
         <div class="container">
             <nav>
-                <img src="images/logo.png" alt="/"  class="logo">
+                <img src="images/logo2.png" alt="/" class="logo">
                 <ul id="sidemenu">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -24,17 +32,33 @@
                 <!-- <i class="fa-solid fa-bars"></i> -->
                 <i class="fas fa-bars" onclick="openMenu()"></i>
             </nav>
-           <div id="intro">
+            <!-- <div id="intro">
                 <div class="header-text">
                     <p>Front End Developer</p>
                     I'm <span>Anupriya Pandey</span> Happy to see
-                    <br>  your interst in my Profile.
+                    <br> your interst in my Profile.
                 </div>
                 <div class="my-profile"> </div>
-           </div>
+            </div> -->
+           
         </div>
-        
     </header>
+
+    <!-- Main Profile Section -->
+    <main>
+        <section class="firstSection">
+           <div class="leftSection">
+                My name is is <span class="nameStyle">Anupriya</span>
+                <div>I'm a passionate Front-End Developer</div>
+            </div>
+           <div class="rightSection">
+            <!-- <img src="/images/javascript-developer.png" alt=""> -->
+            <img src="/images/profile.jpeg" alt="">
+           </div>
+
+        </section>
+    </main>
+
     <!-- About Section -->
     <div id="about">
         <div class="container">
@@ -45,7 +69,9 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About me</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nemo consequuntur dolore quod, placeat quae labore cum in non ullam rerum eveniet ipsa sapiente at! Voluptatibus harum quo officia enim.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nemo consequuntur dolore
+                        quod, placeat quae labore cum in non ullam rerum eveniet ipsa sapiente at! Voluptatibus harum
+                        quo officia enim.</p>
 
                     <div class="tab-titles">
                         <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
@@ -70,46 +96,18 @@
 
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>BBD  NITM</span> <br>B.tech IT (2016-20)</li>
-                            <li><span> SR Inter College </span> <br> Intermediate  (2015-16) </li>
+                            <li><span>BBD NITM</span> <br>B.tech IT (2016-20)</li>
+                            <li><span> SR Inter College </span> <br> Intermediate (2015-16) </li>
                             <li><span>SR School</span> <br>High School (2014-15)</li>
                         </ul>
                     </div>
                 </div>
-                
-            </div>
-        </div>
-    </div>
-
-    <!-- Services Section -->
-
-    <div id="services">
-        <div class="container">
-            <h1 class="sub-title" style="color: #fff;">My Services</h1>
-            <div class="services-list">
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Web Design</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam reiciendis ex, enim unde deleniti et veritatis harum doloremque facilis dicta repellendus fugiat? Amet labore neque adipisci blanditiis illo culpa excepturi.</p>
-                    <a href="#">Learn more.. </a>
-                </div>
-                <div>
-                    <i class="fa-brands fa-adn"></i>
-                    <h2>Web Design</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam reiciendis ex, enim unde deleniti et veritatis harum doloremque facilis dicta repellendus fugiat? Amet labore neque adipisci blanditiis illo culpa excepturi.</p>
-                    <a href="#">Learn more.. </a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-crop"></i>
-                    <h2>Web Design</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam reiciendis ex, enim unde deleniti et veritatis harum doloremque facilis dicta repellendus fugiat? Amet labore neque adipisci blanditiis illo culpa excepturi.</p>
-                    <a href="#">Learn more.. </a>
-                </div>
 
             </div>
         </div>
     </div>
-    <!--  ************************** Portfolio ************************* -->
+
+     <!--  ************************** Portfolio ************************* -->
     <!-- <div id="portfolio">
         <div class="container">
             <h1 class="sub-title" style="color: #fff;">My Work</h1>
@@ -138,70 +136,149 @@
     </div> -->
     <div id="portfolio">
         <div class="container">
-            <h1 class="sub-title">My Work</h1>
+            <h1 class="sub-title">Projects</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="./images/work-1.png">
+                    <img src="./images/FileExplorer.png" class="folder-img-style">
                     <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia recusandae doloribus id praesentium adipisci blanditiis amet fugiat vitae, illum cum asperiores error! Quidem neque excepturi doloribus reiciendis nihil amet aspernatur.</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>File/Folder Explorer</h3>
+                        <p>File Explorer where you can expand folder and see files inside folder..</p>
+                        <a href="https://github.com/IamAnu/FolderStructure" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="./images/work-2.png">
+                    <img src="./images/emp-mgmy.png">
                     <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia recusandae doloribus id praesentium adipisci blanditiis amet fugiat vitae, illum cum asperiores error! Quidem neque excepturi doloribus reiciendis nihil amet aspernatur.</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>User Management</h3>
+                        <p>React Crud Management Project using React.js</p>
+                        <a href="https://github.com/IamAnu/user-management-app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="./images/work-3.png">
+                    <img src="./images/mealCover.jpg">
                     <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia recusandae doloribus id praesentium adipisci blanditiis amet fugiat vitae, illum cum asperiores error! Quidem neque excepturi doloribus reiciendis nihil amet aspernatur.</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>Search Meal App</h3>
+                        <p>Meal App create using javaScript Where you can search the any type of meals and see how to make your favourite recipe.</p>
+                        <a href="https://github.com/IamAnu/MealAPI" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
+                
+                
             </div>
-            <a href="#" class="btn">See more</a>
+            <!-- <a href="#" class="btn">See more</a> -->
+        </div>
+        <div class="container">
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/to-do.jpeg">
+                    <div class="layer">
+                        <h3>Todo App</h3>
+                        <p>Todo list web app, where you can add , update , edit and delet your task</p>
+                        <a href="https://github.com/IamAnu/JavaScript-Todo-app" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/upcoming.jpg" class="folder-img-style">
+                    <div class="layer">
+                        <h3>upComming ...</h3>
+                        <p>Working on new intresting project..</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/upcoming.jpg" class="folder-img-style">
+                    <div class="layer">
+                        <h3>Building Something interesting</h3>
+                        <p>Working on new intresting project..</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+                
+            </div>
+            <!-- <a href="#" class="btn">See more</a> -->
         </div>
     </div>
+
+    <!-- Services Section -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title" style="color: #fff;">My Interest</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Problem Solving</h2>
+                    <p>I am interested in Data Structure and problem solving. I used to solve problems on online plateforms. </p>
+                    <a href="https://leetcode.com/u/Anupriyapandey/" target="_blank">See more.. </a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-person-snowboarding"></i>
+                    <h2>Fitness/Sports</h2>
+                    <p>I love do yoga's and play other sportd game like badminton, cricket etc.. </p>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Development</h2>
+                    <p></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+   
 
     <!--  ************************** Contact ************************* -->
     <div id="contact">
         <div class="container">
             <div class="row">
                 <div class="contact-left">
-                    <h1 class="sub-title">Contact Me</h1> 
-                    <p> <i class="fa-solid fa-paper-plane"></i> Contact@email.com </p>
-                    <p><i class="fa-solid fa-phone"></i> 9800011834 </p>
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>anupriyapandey730@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 9519933342 </p>
                     <div class="social-icons">
-                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                        <a href=""> <i class="fa-regular fa-envelope"></i></a>
-                        <a href=""><i class="fa-brands fa-github"></i></a>
-                        <a href=""><i class="fa-solid fa-code"></i></i></a>
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/anupriya-pandey-24bba8160/"><i class="fa-brands fa-linkedin"></i></a>
+                        <!-- <a href=""> <i class="fa-regular fa-envelope"></i></a> -->
+                        <a href="https://github.com/IamAnu" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://leetcode.com/Anupriyapandey/" target="_blank"><i class="fa-solid fa-code"></i></i></a>
+                        <a href="https://www.instagram.com/p.anupriya/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                     </div>
                     <a href="./images/Anupriya_Pandey .pdf" download class="btn btn2"> Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form action="">
+                    <form action="" name="submit-to-google-sheet">
                         <input type="text" name="Name" placeholder="Enter name" required>
                         <input type="email" name="Email" placeholder="Enter Email.." required>
-                        <textarea name="MEssage" id="" cols="30" rows="6" placeholder="Write Message For me"></textarea>
+                        <textarea name="Message" id="" cols="30" rows="6" placeholder="Write Message For me"></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
                     </form>
                 </div>
             </div>
-        </div> 
+        </div>
         <div class="copyright">
-            <p> <i class="fa-regular fa-copyright"></i> @Anupriya All reserve and rights  </p>
+            <p> <i class="fa-regular fa-copyright"></i> @Anupriya All reserve and rights </p>
         </div>
     </div>
 
 
-    <script src="./script.js" ></script>
+    <script src="./script.js"></script>
+
+    <!--
+        Source of this code is 
+        https://github.com/jamiewilson/form-to-google-sheets
+    -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxf6kUCILJWsqLbOKBSXZHkASjA2q_j1nAqprC3v85chr1815uwudizM-eywF5SrrqI/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
 </body>
+
 </html>

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     /* background-color: rgb(179, 179, 179); */
 }
 html{
@@ -15,14 +15,14 @@ body{
 }
 
 header{
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     /* display: flex; */
     /* background-image: url(./images/background.png); */
     background-size: cover;
     background-position: center;
     /* border-radius: 50%; */
-    border-bottom: 3px dotted black;
+    /* border-bottom: 3px dotted black; */
 }
 
 .container{
@@ -37,7 +37,13 @@ nav{
     align-items: center;
     justify-content: space-between; 
     flex-wrap: wrap;
+    /* height: 100px; */
+    /* background-color: #262626; */
 }
+/* nav ul{
+    display: flex;
+    justify-content: center;
+} */
 nav ul li {
     display: inline-block;
     list-style: none;
@@ -76,18 +82,47 @@ nav ul li a:hover::after{
 }
 
 
-#intro{
+
+/* ------------------------- Main ------------------------- */
+.firstSection{
     display: flex;
+    justify-content: space-around;
+    margin: 80px 0px;
+    align-items: center;
+}
+.firstSection > div{
+    /* width: 30%; */
+}
+.leftSection{
+    font-size: 2rem;
+    /* margin: 70px 0; */
+}
+.rightSection img{
+    /* width: 80%; */
+    width: 30vw;
+    border-radius: 28%;
+    /* margin: 50px 0; */
+
+}
+.nameStyle{
+    color: #ff004f;
+}
+
+.leftSection, .rightSection{
+    /* background-color: #ff004f; */
+}
+
+#intro{
+    /* display: flex; */
 }
 .my-profile{
-    height: 50vh;
+    /* height: 50vh;
     width: 30vw;
     border-radius: 50%;
     background-color: antiquewhite;
     background: url('./images/profile.jpeg');
     background-size: cover;
-   
-    margin-top: 50px;
+    margin-top: 50px; */
     /* float: right; */
     /* position: relative; */
     /* top: -23vh; */
@@ -225,11 +260,15 @@ nav ul li a:hover::after{
 }
 .work img{
     width: 100%;
+    /* height: 100%; */
     border-radius: 10px;
     display: block;
     cursor: pointer;
     transition: transform 0.5s;
 
+}
+.folder-img-style{
+    height: 100%;
 }
 .layer{
     /* height: 100%; */
@@ -364,6 +403,7 @@ nav .fas{
     /*  -------------------------- For Header Section --------------------------- */
     #header{
         background-image: url('/images/phone-background.png');
+
     }
     .header-text{
         margin-top: 100%;
@@ -399,7 +439,37 @@ nav .fas{
         left: 25px;
         cursor: pointer;
     }
+    .header-text .my-profile{
+        flex-basis: 100%;
+    }
+    /* #intro{
+        display: flex;
+        flex-direction: column;
+    }
+    .my-profile{
+        width: 77vw;
+        height: 33vh;
+        margin-bottom: 30px;
 
+    } */
+    /* ------------------------- main --------------------- */
+    .firstSection{
+        display: flex;
+        flex-direction: column;
+    }
+    .leftSection .rightSection{
+        flex-basis: 100%;
+    }
+    .rightSection img{
+        height: fit-content;
+        width: 87vw;
+        display: flex;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        /* left: -25vw; */
+    }
     /*  -------------------------- For About Section --------------------------- */
     .sub-title{
         font-size: 40px;
